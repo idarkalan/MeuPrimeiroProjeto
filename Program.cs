@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Meu Primeiro Projeto");
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
 
-Console.WriteLine("Meu primeiro commit/push");
+Conta c = new Conta();
+WriteLine("informe o saldo: ");
+double saldo = double.Parse(ReadLine());
+
+c.setSaldo(saldo);
